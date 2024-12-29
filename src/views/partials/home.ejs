@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="outer-nav--return"></div>
+  <div id="viewport" class="l-viewport">
+    <div class="l-wrapper">
+      <header class="header">
+        <a class="header--logo" href="#0">
+          <img src="/images/logo.png" class="logoimg" alt="Global" />
+          <p>GoldenLens</p>
+        </a>
+        <button class="header--cta cta">Meet Us</button>
+        <div class="header--nav-toggle">
+          <span></span>
+        </div>
+      </header>
+      <nav class="l-side-nav">
+        <ul class="side-nav">
+          <li class="is-active"><span>Home</span></li>
+          <li><span>Works</span></li>
+          <li><span>About</span></li>
+          <li><span>Contact</span></li>
+          <li><span>Meet us</span></li>
+        </ul>
+      </nav>
+      <ul class="l-main-content main-content">
+        <li class="l-section section section--is-active">
+          <%- include('pages/intro.ejs') %>
+        </li>
+        <li class="l-section section"><%- include('pages/work.ejs') %></li>
+        <li class="l-section section"><%- include('pages/about.ejs') %></li>
+        <li class="l-section section"><%- include('pages/contact.ejs') %></li>
+        <li class="l-section section"><%- include('pages/meetUs.ejs') %></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<ul class="outer-nav">
+  <li class="is-active">Home</li>
+  <li>Join Us</li>
+  <li>About</li>
+  <li>Contact</li>
+  <li>Meet us</li>
+</ul>

@@ -1,0 +1,73 @@
+<div class="screen">
+  <div class="screen-header">
+    <div class="screen-header-left">
+      <div class="screen-header-button maximize"></div>
+      <div class="screen-header-button minimize"></div>
+    </div>
+    <div class="screen-header-right">
+      <div class="screen-header-ellipsis"></div>
+      <div class="screen-header-ellipsis"></div>
+      <div class="screen-header-ellipsis"></div>
+    </div>
+  </div>
+  <div class="screen-body">
+    <div class="screen-body-item left">
+      <div class="app-title">
+        <span>CONTACTEZ</span>
+        <span>NOUS</span>
+      </div>
+      <div class="seldiv">
+        <label for="type" class="seltype">Type :</label>
+        <select name="type" id="dropdown">
+          <option value="photoid" class="optionaa">Photos identité</option>
+          <option value="shootmod" class="optionaa">Shooting model</option>
+          <option value="shootfam" class="optionaa">Shooting famille</option>
+          <option value="shootobj" class="optionaa">Shooting objet</option>
+          <option value="shooteve" class="optionaa">
+            shooting événementiel
+          </option>
+          <option value="ext" class="optionaa">Autre...</option>
+        </select>
+        <p class="error" id="err7">error</p>
+      </div>
+      <div class="app-contact">CONTACT INFO : +212 625-523293</div>
+    </div>
+    <div class="screen-body-item">
+      <div class="app-form">
+        <div class="app-form-group">
+          <input
+            class="app-form-control"
+            id="phone"
+            placeholder="PHONE NUMBER"
+          />
+        </div>
+        <p class="error" id="err1">error</p>
+        <div class="app-form-group">
+          <input class="app-form-control" id="addr" placeholder="EMAIL" />
+        </div>
+        <div class="app-form-group">
+          <input class="app-form-control" id="addr" placeholder="ADDRESS" />
+        </div>
+
+        <p class="error" id="err2">error</p>
+        <div class="app-form-group">
+          <input
+            class="app-form-control"
+            id="zip"
+            placeholder="ZIP CODE"
+            type="date"
+          />
+        </div>
+        <p class="error" id="err3">error</p>
+        <div class="app-form-group message">
+          <input class="app-form-control" id="msg" placeholder="MESSAGE" />
+        </div>
+        <p class="error" id="err4">error</p>
+        <div class="app-form-group buttons">
+          <button id="cancel" class="app-form-button">CANCEL</button>
+          <button class="app-form-button" id="sendorder">SEND</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

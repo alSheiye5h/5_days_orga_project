@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GoldenLens</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="HTML5 website template" />
+    <meta name="keywords" content="global, template, html, sass, jquery" />
+    <meta name="author" content="Bucky Maler" />
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+  <body>
+    <div class="device-notification">
+      <a class="device-notification--logo" href="#0">
+        <img src="images/logo.png" alt="Global" />
+        <p>GoldenLens</p>
+      </a>
+      <p class="device-notification--message">
+        GoldenLens has so much to offer that we must request you orient your
+        device to portrait or find a larger screen. You won't be disappointed.
+      </p>
+    </div>
+    <div class="perspective effect-rotate-left">
+      <%- include('./partials/home.ejs')%>
+    </div>
+
+    <div id="overlay"><%- include('./partials/overlay.ejs')%></div>
+    <div class="container55" id="contact">
+      <%- include('./partials/screen.ejs')%>
+    </div>
+    <!-- api d jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+    <script>
+      // loadiwha
+      window.jQuery ||
+        document.write(
+          '<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>'
+        );
+    </script>
+    <script src="/js/contactHandler.js"></script>
+    <script src="/js/flash.js"></script>
+    <script src="/js/scrollHandler.js"></script>
+    <script src="/js/navigationHandler.js"></script>
+    <script src="/js/sliderHandler.js"></script>
+    <script src="/js/labelTransition.js"></script>
+    <script src="/jsmain.js"></script>
+    <!-- request dial les ordres -->
+    <script src="/script/script.js"></script>
+  </body>
+</html>
